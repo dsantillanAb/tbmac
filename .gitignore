@@ -1,0 +1,20 @@
+# macOS and editor metadata
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Generated application and installer artifacts
+CodexTouchBar.app/
+build_dmg_staging/
+*.dmg
+*.xcarchive/
+DerivedData/
+
+# SwiftPM build products (if used by contributors)
+.build/
+Package.resolved
+
+# Local logs and session data
+*.log
+codex-sessions/
